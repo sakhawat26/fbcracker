@@ -68,19 +68,19 @@ logo = """
 
  *Do everything on your own risk.
  *I am not responsible for any illegal activities.
-  -------------
-  🅂🄰🄺🄷🄰🅆🄰🅃
-\033[1;91m=======================================
+
+  -🅂🄰🄺🄷🄰🅆🄰🅃
+\033[1;91m============================================
 \033[1;96mAuthor    \033[1;93m: \033[1;92mSakhawat Hossain
 \033[1;96mInstagram \033[1;93m: \033[1;92mSakhawat Hossain
 \033[1;96mFacebook  \033[1;93m: \033[1;92mwww.facebook.com/sakhawat1926
-\033[1;96mYouTube    \033[1;93m: \033[1;92mTiPS&TRiCKS 360
-\033[1;91m======================================="""
+\033[1;96mYouTube   \033[1;93m: \033[1;92mTiPS&TRiCKS 360
+\033[1;91m============================================"""
 
 def tik():
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;96m[●] \x1b[1;93mSedang masuk \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
+		print("\r\033[1;96m[●] \x1b[1;93mTrying to log in.Please wait for a while \x1b[1;97m"+o),;sys.stdout.flush();time.sleep(1)
 
 
 back = 0
